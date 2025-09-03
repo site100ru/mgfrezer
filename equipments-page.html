@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Theme CSS -->
+		<link href="css/theme.css" rel="stylesheet" />
+
+		<!-- FONT CSS -->
+		<link href="css/font.css" rel="stylesheet" />
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/ico/email-ico.svg" />
+
+		<title>Single Product</title>
+	</head>
+	<body>
+		<section class="main-home-section">
+			<div class="parallax-home-section"></div>
+
+			<section class="d-none d-lg-block">
+				<!-- Header nav top -->
+				<header class="d-block header-top py-0">
+					<nav
+						class="header-nav-top navbar navbar-expand-lg navbar-light d-none d-lg-block py-1 py-lg-0"
+					>
+						<div class="container-fluid">
+							<div class="collapse navbar-collapse">
+								<ul class="navbar-nav ms-auto align-items-center">
+									<li class="nav-item me-3 me-md-1 me-xl-3">
+										<div
+											class="nav-link d-flex align-items-center gap-3 gap-md-2 gap-xl-3 lh-1 nav-link-text"
+											style="cursor: default"
+										>
+											<img src="img/ico/location-ico.svg" />
+											гор. Химки, мкр-н Сходня,
+											<br />
+											ул. Октябрьская, д. 29А, стр. 1
+										</div>
+									</li>
+									<li class="nav-item me-3 me-md-1 me-xl-3">
+										<div
+											class="nav-link d-flex align-items-center gap-3 gap-md-2 gap-xl-3 lh-1 nav-link-text"
+											style="cursor: default"
+										>
+											<img src="img/ico/clock-ico.svg" />
+											Ежедневно
+											<br />с 9:00 до 21:00
+										</div>
+									</li>
+
+									<li class="nav-item me-3 me-md-1 me-xl-3">
+										<a
+											class="nav-link d-flex align-items-center gap-3 gap-md-2 gap-xl-3 lh-1 nav-link-text"
+											href="mailto:zakaz@mglight.ru"
+										>
+											<img src="img/ico/email-ico.svg" />
+											zakaz@mglight.ru
+										</a>
+									</li>
+									<li class="nav-item me-3 me-md-1 me-xl-3">
+										<button
+											class="nav-link d-flex align-items-center gap-3 gap-md-2 gap-xl-3 lh-1"
+											data-bs-toggle="modal"
+											data-bs-target="#callbackModal"
+										>
+											<img src="img/ico/callback-ico.svg" />
+											Обратный звонок
+										</button>
+									</li>
+
+									<li class="nav-item me-3 me-md-1 me-xl-3">
+										<a class="top-menu-tel nav-link" href="tel:+74994082271">
+											<img src="img/ico/mobile-phone-ico.svg" />
+											+7 499 408 22 71
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a
+											class="nav-link ico-button"
+											href="https://t.me/+79265930177"
+										>
+											<img src="img/ico/telegram-ico.svg" />
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a
+											class="nav-link ico-button"
+											href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+										>
+											<img src="img/ico/whatsapp-ico.svg" />
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<hr class="hr-top" />
+					<nav
+						class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0"
+					>
+						<div class="container-fluid">
+							<a class="navbar-brand" href="index.html">
+								<img src="img/logo-light.svg" />
+							</a>
+
+							<div
+								class="d-none d-sm-block d-lg-none flex-column top-menu-tel-wrapper gap-1 my-2"
+							>
+								<a class="top-menu-tel nav-link" href="tel:+74994082271">
+									+7 499 408 22 71
+								</a>
+
+								<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
+									<img src="img/ico/clock-ico.svg" />
+									Ежедневно
+									<br />с 9:00 до 21:00
+								</p>
+							</div>
+
+							<button
+								class="navbar-toggler mx-3 me-0 mx-lg-auto"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#mobail-header-collapse"
+								aria-controls="mobail-header-collapse"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="mobail-header-collapse">
+								<ul
+									class="navbar-nav align-items-start align-items-lg-center ms-auto mb-2 mb-lg-0"
+								>
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Главная</a>
+									</li>
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href=""
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+											>Услуги</a
+										>
+										<ul
+											class="dropdown-menu dropdown-menu-light py-1"
+											style="border-radius: 5px"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Листовые пластики</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Композитные панели
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Фанера и плиты (МДФ, ДСП)</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Пенокартон, сендвич
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Гравировка</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Термогиб и сборка
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="price.html">Цены</a>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="equipments-page.html"
+											>Оборудование</a
+										>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="jobs.html">Наши работы</a>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contacts.html">Контакты</a>
+									</li>
+
+									<!-- Mobile menu -->
+
+									<li class="nav-item d-lg-none">
+										<button
+											class="nav-link text-dark"
+											data-bs-toggle="modal"
+											data-bs-target="#callbackModal"
+										>
+											Обратный звонок
+										</button>
+									</li>
+									<li class="nav-item d-lg-none text-dark">
+										<div>
+											<img
+												src="img/ico/location-ico.svg"
+												style="width: 10px"
+												class="me-1"
+											/>
+											<span>
+												гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А,
+												стр. 1</span
+											>
+										</div>
+
+										<a
+											class="top-menu-tel nav-link fw-bold"
+											href="tel:84912555505"
+											>8 (491) 2555-55-05</a
+										>
+										<div class="mb-2 d-flex">
+											<img
+												src="img/ico/clock-ico.svg"
+												style="width: 10px; position: relative; top: 2px"
+												class="me-1 mb-2"
+											/>
+											<div>
+												Ежедневно
+												<br />с 9:00 до 21:00
+											</div>
+										</div>
+									</li>
+									<li class="nav-item d-lg-none pb-4">
+										<a
+											class="ico-button pe-2"
+											href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+											><img src="img/ico/whatsapp-ico.svg"
+										/></a>
+										<a class="ico-button pe-0" href="https://t.me/+79265930177"
+											><img src="img/ico/telegram-ico.svg"
+										/></a>
+									</li>
+									<!-- End mobile menu -->
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</header>
+				<!-- /Header nav top -->
+
+				<!-- Header nav bottom -->
+				<header id="sliding-header" class="shadow">
+					<!-- Header nav bottom -->
+					<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-lg-0">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="index.html">
+								<img src="img/logo-dark.svg" />
+							</a>
+
+							<div class="d-lg-none">
+								<div
+									class="d-none d-sm-block d-lg-none flex-column top-menu-tel-wrapper gap-1 my-2"
+								>
+									<a class="top-menu-tel nav-link" href="tel:+74994082271">
+										+7 499 408 22 71
+									</a>
+
+									<p
+										class="nav-link d-flex align-items-center gap-3 lh-1 mb-0"
+										style="font-size: 14px"
+									>
+										<img src="img/ico/clock-ico.svg" />
+										Ежедневно
+										<br />с 9:00 до 21:00
+									</p>
+								</div>
+							</div>
+
+							<button
+								class="navbar-toggler mx-3 me-0 mx-lg-auto"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#sliding-header-collapse"
+								aria-controls="sliding-header-collapse"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="sliding-header-collapse">
+								<ul
+									class="navbar-nav align-items-start align-items-lg-center ms-auto mb-2 mb-lg-0"
+								>
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Главная</a>
+									</li>
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href=""
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+											>Услуги</a
+										>
+										<ul
+											class="dropdown-menu dropdown-menu-light py-1"
+											style="border-radius: 5px"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Листовые пластики</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Композитные панели
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Фанера и плиты (МДФ, ДСП)</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Пенокартон, сендвич
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Гравировка</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Термогиб и сборка
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="price.html">Цены</a>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link active" href="equipments-page.html"
+											>Оборудование</a
+										>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="jobs.html">Наши работы</a>
+									</li>
+
+									<li class="nav-item d-none d-lg-inline">
+										<img
+											class="nav-link"
+											src="img/ico/menu-decoration-point.svg"
+										/>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contacts.html">Контакты</a>
+									</li>
+
+									<!-- Mobile menu -->
+
+									<li class="nav-item d-lg-none">
+										<button
+											class="nav-link text-dark"
+											data-bs-toggle="modal"
+											data-bs-target="#callbackModal"
+										>
+											Обратный звонок
+										</button>
+									</li>
+									<li class="nav-item d-lg-none text-dark">
+										<div>
+											<img
+												src="img/ico/location-ico.svg"
+												style="width: 10px"
+												class="me-1"
+											/>
+											<span>
+												гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А,
+												стр. 1</span
+											>
+										</div>
+
+										<a class="top-menu-tel nav-link" href="tel:84912555505"
+											>8 (491) 2555-55-05</a
+										>
+										<div class="mb-2 d-flex gap-1">
+											<img
+												src="img/ico/clock-ico.svg"
+												style="width: 10px; position: relative; top: 2px"
+												class="me-1"
+											/>
+											<div class="text">Ежедневно <br />с 9:00 до 21:00</div>
+										</div>
+									</li>
+									<li class="nav-item d-lg-none pb-4">
+										<a
+											class="ico-button pe-2"
+											href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+											><img src="img/ico/whatsapp-ico.svg"
+										/></a>
+										<a class="ico-button pe-0" href="https://t.me/+79265930177"
+											><img src="img/ico/telegram-ico.svg"
+										/></a>
+									</li>
+									<!-- End mobile menu -->
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<!-- /Header nav bottom -->
+				</header>
+				<!-- /Header nav bottom -->
+			</section>
+
+			<header id="sliding-header" class="shadow">
+				<!-- Header nav bottom -->
+				<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0">
+					<div class="container">
+						<a class="navbar-brand" href="#">
+							<img src="img/logo-dark.svg" />
+						</a>
+
+						<div class="d-lg-none">
+							<a
+								class="top-menu-tel pt-1 pb-0"
+								style="font-size: 14px"
+								href="tel:+74994082271"
+								>+7 499 408 22 71</a
+							>
+							<div
+								style="
+									font-size: 10px;
+									font-family: Gilroy-Light;
+									text-transform: none;
+								"
+							>
+								<img
+									src="https://newtheme.site/wp-content/themes/dekorsever-wp/img/ico/clock-ico.svg"
+									style="width: 12px; position: relative; top: -1px"
+									class="me-1"
+								/>Ежедневно с 9:00 до 21:00
+							</div>
+						</div>
+
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#sliding-header-collapse"
+							aria-controls="sliding-header-collapse"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="navbar-collapse collapse" id="sliding-header-collapse" style="">
+							<ul id="menu-main-menu" class="navbar-nav ms-auto mb-2 mb-lg-0">
+								<li
+									id="menu-item-79"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home nav-item nav-item-79"
+								>
+									<a href="index.html" class="nav-link">Главная</a>
+								</li>
+
+								<li
+									id="menu-item-682"
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown nav-item nav-item-682"
+								>
+									<a
+										href="#"
+										class="nav-link dropdown-toggle"
+										data-bs-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+										>Услуги</a
+									>
+									<ul class="dropdown-menu depth_0">
+										<li
+											id="menu-item-694"
+											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item nav-item nav-item-694"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Листовые пластики</a
+											>
+										</li>
+										<li
+											id="menu-item-753"
+											class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-753"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Композитные панели</a
+											>
+										</li>
+										<li
+											id="menu-item-638"
+											class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-638"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Фанера и плиты (МДФ, ДСП)</a
+											>
+										</li>
+										<li
+											id="menu-item-694"
+											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item nav-item nav-item-694"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Пенокартон, сендвич</a
+											>
+										</li>
+										<li
+											id="menu-item-753"
+											class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-753"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Гравировка</a
+											>
+										</li>
+										<li
+											id="menu-item-638"
+											class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-638"
+										>
+											<a href="service-page.html" class="dropdown-item"
+												>Термогиб и сборка</a
+											>
+										</li>
+									</ul>
+								</li>
+
+								<li
+									id="menu-item-1119"
+									class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-1119"
+								>
+									<a href="price.html" class="nav-link">Цены</a>
+								</li>
+
+								<li
+									id="menu-item-1119"
+									class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-1119"
+								>
+									<a href="equipments-page.html" class="nav-link active"
+										>Оборудование</a
+									>
+								</li>
+
+								<li
+									id="menu-item-1119"
+									class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-1119"
+								>
+									<a href="jobs.html" class="nav-link">Наши работы</a>
+								</li>
+
+								<li
+									id="menu-item-142"
+									class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-142"
+								>
+									<a href="contacts.html" class="nav-link">Контакты</a>
+								</li>
+
+								<!-- Mobile menu -->
+								<li class="nav-item d-lg-none">
+									<div
+										style="
+											font-size: 12px;
+											font-family: HelveticaNeueCyr-Light;
+											text-transform: none;
+										"
+									>
+										<img
+											src="img/ico/location-ico.svg"
+											style="width: 10px"
+											class="me-1"
+										/>
+										<span
+											>гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А, стр.
+											1</span
+										>
+									</div>
+									<a
+										class="nav-link top-menu-tel pt-1 pb-1"
+										href="tel:+74994082271"
+										>+7 499 408 22 71</a
+									>
+									<div
+										class="mb-2"
+										style="
+											font-size: 12px;
+											font-family: HelveticaNeueCyr-Light;
+											text-transform: none;
+										"
+									>
+										<img
+											src="img/ico/clock-ico.svg"
+											style="width: 10px; position: relative; top: 2px"
+											class="me-1 mb-2"
+										/>Ежедневно с 9:00 до 21:00
+									</div>
+								</li>
+								<li class="nav-item d-lg-none pb-4">
+									<a class="ico-button pe-0" href="https://t.me/+79265930177">
+										<img src="img/ico/telegram-ico.svg" />
+									</a>
+
+									<a
+										class="ico-button pe-2"
+										href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+									>
+										<img src="img/ico/whatsapp-ico.svg" />
+									</a>
+								</li>
+								<!-- End mobile menu -->
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- /Header nav bottom -->
+			</header>
+			<div class="container">
+				<div class="row align-items-center home-section-height">
+					<div class="col">
+						<h1 class="home-title mb-0">Наше оборудование</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Широкоформатный принтер -->
+		<section class="section text-dark section-about section-grid">
+			<div class="container">
+				<!-- Заголовок секции -->
+				<div class="section-title text-center mb-5">
+					<h3 class="text-dark">Широкоформатный принтер</h3>
+					<img src="img/ico/points.png" alt="Описание изображения" class="img-fluid" />
+				</div>
+
+				<!-- на ПК изображение слева, текст справа; на мобильных — сначала текст, потом изображение -->
+				<div class="row align-items-start section-grid-left">
+					<!-- Изображение -->
+					<div
+						class="col-12 col-md-6 col-xl-6 text-center order-3 order-md-1 section-image"
+					>
+						<div class="img-wrapper">
+							<img
+								src="img/product/product-2.png"
+								alt="Изображение 2"
+								class="img-fluid"
+							/>
+						</div>
+					</div>
+
+					<!-- Пустая колонка -->
+					<div class="d-none d-xl-block col-xl-1 order-2 order-md-2"></div>
+
+					<!-- Текст -->
+					<div
+						class="col-12 col-md-6 col-xl-5 order-1 order-md-3 mb-4 mb-md-0 d-flex"
+						style="align-self: center"
+					>
+						<p>
+							Широкоформатный принтер (ширина печати 3,2 м), печатающая голова XAAR
+							(Великобритания) 382-й серии (PROTON), c разрешением 360-720 dpi
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Высокоскоростной солвентный пьезоструйный полноцветный плоттер -->
+		<section class="section text-dark bg-alt-light section-about section-grid">
+			<div class="container">
+				<!-- Заголовок секции -->
+				<div class="section-title text-center mb-5">
+					<h3 class="text-dark">
+						Высокоскоростной солвентный пьезоструйный полноцветный плоттер
+					</h3>
+					<img src="img/ico/points.png" alt="Описание изображения" class="img-fluid" />
+				</div>
+
+				<!-- текст слева, изображение справа -->
+				<div class="row align-items-start mb-5 section-grid-right">
+					<!-- Текст -->
+					<div
+						class="col-12 col-md-6 col-xl-5 mb-4 mb-md-0 d-flex text-md-end"
+						style="align-self: center"
+					>
+						<p>
+							Высокоскоростной солвентный пьезоструйный полноцветный плоттер
+							<br />
+							Mimaki JV33-160
+						</p>
+					</div>
+
+					<!-- Пустая колонка -->
+					<div class="d-none d-xl-block col-xl-1"></div>
+
+					<!-- Изображение -->
+					<div class="col-12 col-md-6 col-xl-6 text-center section-image">
+						<div class="img-wrapper">
+							<img
+								src="img/product/product-3.png"
+								alt="Изображение 1"
+								class="img-fluid"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACTS SECTION 4 -->
+		<section class="footer bg-dark">
+			<!-- Desktop version -->
+			<div class="container-fluid py-5 d-none d-xl-block">
+				<div class="row align-items-center">
+					<div class="col-xl-2">
+						<a href="#">
+							<img id="navbar-brand-img" src="img/logo-light.svg" class="img-fluid" />
+						</a>
+					</div>
+					<div class="col-xl-8">
+						<div class="navbar-collapse">
+							<ul
+								class="navbar-nav ms-auto mb-3 mb-lg-0 d-flex flex-row justify-content-center align-items-center"
+							>
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Главная</a>
+								</li>
+
+								<li class="nav-item d-none d-lg-inline">
+									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								</li>
+
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href=""
+										data-bs-toggle="dropdown"
+										data-bs-auto-close="outside"
+										>Услуги</a
+									>
+									<ul class="dropdown-menu shadow">
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Листовые пластики</a
+											>
+										</li>
+
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Композитные панели
+											</a>
+										</li>
+
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Фанера и плиты (МДФ, ДСП)</a
+											>
+										</li>
+
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Пенокартон, сендвич
+											</a>
+										</li>
+
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Гравировка</a
+											>
+										</li>
+
+										<li class="nav-item">
+											<a
+												class="dropdown-item nav-item"
+												href="service-page.html"
+												>Термогиб и сборка
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="price.html">Цены</a>
+								</li>
+
+								<li class="nav-item d-none d-lg-inline">
+									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="equipments-page.html"
+										>Оборудование</a
+									>
+								</li>
+
+								<li class="nav-item d-none d-lg-inline">
+									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="jobs.html">Наши работы</a>
+								</li>
+
+								<li class="nav-item d-none d-lg-inline">
+									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contacts.html">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 text-end">
+						<a href="tel:+74994082271" class="top-menu-tel nav-link">
+							<img
+								src="img/ico/mobile-phone-ico.svg"
+								class="me-2"
+								style="position: relative; bottom: 1px"
+							/>+7 <span style="color: var(--color-accent)">499</span> 408 22 71
+						</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col py-4 d-flex justify-content-center align-items-center">
+						<ul class="nav footer-nav align-items-center">
+							<li class="nav-item me-3">
+								<div
+									class="nav-link d-flex align-items-center gap-3 lh-1 nav-link-text"
+									style="cursor: default"
+								>
+									<img src="img/ico/location-ico.svg" />
+									гор. Химки, мкр-н Сходня,
+									<br />
+									ул. Октябрьская, д. 29А, стр. 1
+								</div>
+							</li>
+							<li class="nav-item me-3">
+								<div
+									class="nav-link d-flex align-items-center gap-3 lh-1 nav-link-text"
+									style="cursor: default"
+								>
+									<img src="img/ico/clock-ico.svg" />
+									Ежедневно
+									<br />с 9:00 до 21:00
+								</div>
+							</li>
+
+							<li class="nav-item me-3">
+								<a
+									class="nav-link d-flex align-items-center gap-3 lh-1"
+									href="mailto:zakaz@mglight.ru"
+								>
+									<img src="img/ico/email-ico.svg" />
+									zakaz@mglight.ru
+								</a>
+							</li>
+
+							<li class="nav-item me-3">
+								<button
+									class="nav-link d-flex align-items-center gap-3 lh-1"
+									data-bs-toggle="modal"
+									data-bs-target="#callbackModal"
+								>
+									<img src="img/ico/callback-ico.svg" />
+									<span>Обратный звонок</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row justify-content-center footer-icon">
+					<div class="col">
+						<ul class="nav justify-content-center">
+							<li class="nav-item">
+								<a
+									class="nav-link ico-button px-2"
+									href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+								>
+									<img src="img/ico/whatsapp-ico.svg" />
+								</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link ico-button px-2"
+									href="https://t.me/+79265930177"
+								>
+									<img src="img/ico/telegram-ico.svg" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /Desktop version -->
+
+			<!-- Mobile version -->
+			<div class="container d-xl-none">
+				<div class="row">
+					<div class="col py-5">
+						<a href="#">
+							<img id="navbar-brand-img" src="img/logo-light.svg" class="img-fluid" />
+						</a>
+						<ul class="ps-0 pt-5 pt-md-3 pb-2 navbar-nav">
+							<div class="ps-0 pb-2">
+								<img src="img/ico/location-ico.svg" class="me-2" />
+								<span>
+									гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А, стр. 1</span
+								>
+							</div>
+
+							<div class="ps-0 py-2">
+								<img src="img/ico/clock-ico.svg" class="me-2" />
+								<span>Ежедневно с 9:00 до 21:00</span>
+							</div>
+
+							<li class="nav-item">
+								<a
+									href="mailto:zakaz@mglight.ru"
+									class="nav-link ps-0 py-2 footer-mail"
+								>
+									<img src="img/ico/email-ico.svg" class="me-2" />
+									zakaz@mglight.ru
+								</a>
+							</li>
+							<li class="nav-item">
+								<button
+									class="nav-link ps-0 pt-2"
+									data-bs-toggle="modal"
+									data-bs-target="#callbackModal"
+								>
+									<img src="img/ico/callback-ico.svg" class="me-2" />
+									Обратный звонок
+								</button>
+							</li>
+						</ul>
+						<a href="tel:+74994082271" class="top-menu-tel nav-link">
+							<img
+								src="img/ico/mobile-phone-ico.svg"
+								class="me-2"
+								style="position: relative; bottom: 1px"
+							/>+7 <span style="color: var(--color-accent)">499</span> 408 22 71
+						</a>
+						<ul class="nav pt-4 pb-3">
+							<li class="nav-item">
+								<a
+									class="nav-link ico-button px-2"
+									href="https://wa.me/79265930177?web=1&amp;app_absent=1"
+								>
+									<img src="img/ico/whatsapp-ico.svg" />
+								</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link ico-button px-2"
+									href="https://t.me/+79265930177"
+								>
+									<img src="img/ico/telegram-ico.svg" />
+								</a>
+							</li>
+						</ul>
+						<div class="row footer-menu">
+							<div class="col-6">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link ps-0" href="index.html">Главная</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle ps-0"
+											href="index.html"
+											data-bs-toggle="dropdown"
+											data-bs-auto-close="outside"
+											>Услуги</a
+										>
+										<ul class="dropdown-menu dropdown-menu-custom shadow">
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Листовые пластики</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Композитные панели
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Фанера и плиты (МДФ, ДСП)</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Пенокартон, сендвич
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Гравировка</a
+												>
+											</li>
+
+											<li class="nav-item">
+												<a
+													class="dropdown-item nav-item"
+													href="service-page.html"
+													>Термогиб и сборка
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link ps-0" href="price.html">Цены</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link ps-0 active" href="equipments-page.html"
+											>Оборудование</a
+										>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link ps-0" href="jobs.html">Наши работы</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link ps-0" href="contacts.html">Контакты</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr />
+
+			<!-- Footer -->
+
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col text-start text-md-center">
+							<div id="im-in-footer">
+								Создание и продвижение сайтов:
+								<a href="https://site100.ru" class="text-light"
+									>site<span style="color: var(--color-accent)">100</span>.ru</a
+								>
+							</div>
+							<div class="policy-in-footer">
+								<a href="docs/Privacy-Policy.pdf" target="_blank"
+									>Политика конфиденциальности</a
+								>
+								|
+								<a
+									href="docs/Consent-to-the-processing-of-personal-data.pdf"
+									target="_blank"
+									>Согласие на обработку персональных данных</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!-- /CONTACTS SECTION 4 -->
+
+		<!-- Callback Modal -->
+		<div
+			class="modal fade"
+			id="callbackModal"
+			tabindex="-1"
+			aria-labelledby="callbackModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<form method="post" action="mails/callback-mail.php" class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="callbackModalLabel">Обратный звонок</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col">
+								<p>
+									<small
+										>Мы свяжемся с Вами в ближайшее время и ответим на все
+										вопросы! Для звонка введите Ваше имя и телефон.</small
+									>
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-3 mb-md-0">
+								<input
+									type="text"
+									name="name"
+									class="form-control"
+									placeholder="Ваше имя"
+								/>
+							</div>
+							<div class="col-md-6">
+								<input
+									type="text"
+									name="tel"
+									class="form-control telMask"
+									placeholder="Ваш телефон*"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-lg btn-corporate-color-1 mx-auto">
+							Перезвонить
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- /Callback Modal -->
+
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- jQuery -->
+		<script src="js/jquery-1.5.1.min.js"></script>
+
+		<script src="js/menu-scroll.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/telMask.js"></script>
+	</body>
+</html>
