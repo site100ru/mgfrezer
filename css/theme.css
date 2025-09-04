@@ -484,6 +484,7 @@ td span {
 	font-size: 14px;
 	color: #c8c8c8;
 	font-family: HelveticaNeueCyr;
+	transition: all 0.5s;
 }
 
 .header-top button.nav-link {
@@ -507,7 +508,7 @@ td span {
 
 .header-top .nav-link:hover,
 .header-top .top-menu-tel:hover {
-	color: var(--color-accent-hover);
+	opacity: 0.85;
 }
 /*** END HEADER ***/
 
@@ -924,7 +925,7 @@ footer {
 
 #im-in-footer {
 	font-family: HelveticaNeueCyr;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #ebebeb;
 }
@@ -934,7 +935,7 @@ footer {
 	color: #ebebeb !important;
 	text-decoration: underline;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 16px;
 	transition: all 0.5s;
 }
 
@@ -1069,7 +1070,7 @@ a.nav-link.ico-button:hover {
 
 .work-text p {
 	font-family: var(--font5);
-	line-height: 1;
+	line-height: 1.2;
 	margin-bottom: 0;
 	font-weight: 600;
 	font-size: 22px;
@@ -1178,7 +1179,6 @@ a.nav-link.ico-button:hover {
 
 #callbackModal h5 {
 	color: #323232;
-	font-weight: 700;
 }
 
 #callbackModal p {
@@ -1388,7 +1388,7 @@ end section-advantages
 	font-size: 60px;
 	color: #ebebeb;
 	text-transform: initial;
-	line-height: 1;
+	line-height: 1.35;
 }
 
 @media (max-width: 768px) {
@@ -1535,10 +1535,17 @@ end section-advantages
 .modal-body p {
 	font-family: Gilroy;
 	color: #323232;
+	font-size: 18px;
+}
+
+.form-control {
+	font-family: Gilroy;
+	font-size: 16px;
 }
 
 .modal-header .modal-title {
 	font-weight: 600;
+	font-family: var(--bs-font-sans-serif);
 }
 
 @media (max-width: 992px) {
