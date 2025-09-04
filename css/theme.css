@@ -899,6 +899,11 @@ footer {
 	font-weight: 500;
 	font-family: HelveticaNeueCyr;
 	color: #ebebeb;
+	transition: all 0.5s;
+}
+
+.footer .navbar-nav .nav-item .nav-link:hover {
+	color: var(--color-accent);
 }
 
 .footer .navbar-nav .nav-item .nav-link.active {
@@ -913,13 +918,13 @@ footer {
 
 #company-in-footer {
 	font-family: HelveticaNeueCyr;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 }
 
 #im-in-footer {
 	font-family: HelveticaNeueCyr;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 	color: #ebebeb;
 }
@@ -929,6 +934,21 @@ footer {
 	color: #ebebeb !important;
 	text-decoration: underline;
 	font-weight: 300;
+	font-size: 14px;
+	transition: all 0.5s;
+}
+
+#im-in-footer a:hover,
+.policy-in-footer a:hover {
+	color: var(--color-accent) !important;
+}
+
+a.nav-link.ico-button {
+	transition: all 0.5s;
+}
+
+a.nav-link.ico-button:hover {
+	opacity: 0.75;
 }
 
 .footer hr {
@@ -1324,6 +1344,10 @@ end section-advantages
 }
 
 @media (max-width: 1200px) {
+	.home-section-height {
+		margin-top: 20px;
+	}
+
 	.home-section-height.service-page {
 		margin-top: 40px;
 	}
@@ -1370,6 +1394,12 @@ end section-advantages
 @media (max-width: 768px) {
 	.home-title {
 		font-size: 40px;
+	}
+}
+
+@media (max-width: 568px) {
+	.home-title.home-title-main {
+		font-size: 30px;
 	}
 }
 
@@ -1447,10 +1477,8 @@ end section-advantages
 /* Input file */
 .custom-file-button input[type='file'] {
 	/* margin-left: -2px; */
-	color: #191919;
-	font-family: HelveticaNeueCyr-Light;
-	font-size: 18px;
-	font-size: 18px;
+	color: #323232;
+	font-family: Gilroy;
 }
 
 .custom-file-button input[type='file']::-webkit-file-upload-button {
@@ -1503,3 +1531,46 @@ end section-advantages
 	transition: 0.2s;
 }
 /* End input file */
+
+.modal-body p {
+	font-family: Gilroy;
+	color: #323232;
+}
+
+.modal-header .modal-title {
+	font-weight: 600;
+}
+
+@media (max-width: 992px) {
+	#sliding-header-collapse .nav-item .nav-link {
+		color: #4b4b4b;
+		font-family: Gilroy;
+		font-weight: 500;
+	}
+
+	#sliding-header-collapse .nav-item .nav-link.active {
+		color: var(--color-accent);
+	}
+
+	.dropdown-item {
+		color: #4b4b4b;
+		font-family: Gilroy;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #323232;
+	}
+
+	#sliding-header-collapse .nav-item span {
+		font-size: 12px;
+		font-family: HelveticaNeueCyr;
+		font-weight: 300;
+		text-transform: none;
+	}
+
+	#sliding-header-collapse .nav-item .nav-link.top-menu-tel {
+		color: #4b4b4b;
+		font-family: HelveticaNeue;
+		font-weight: 700;
+	}
+}
