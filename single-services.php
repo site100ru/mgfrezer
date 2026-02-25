@@ -247,6 +247,8 @@ $block_counter = 0;
 if ($content_blocks): foreach ($content_blocks as $block): 
     $block_counter++;
     $gallery_images = $block['gallery_images'];
+    $full_text = $block['block_text_full'] ?? ''; 
+    
     $carousel_id = 'carousel-2691-' . $block_counter;
     $gallery_id = 'gallery-2691-' . $block_counter;
     $bg_class = $block['background'] == 'gray' ? 'bg-alt-light' : '';
@@ -254,8 +256,7 @@ if ($content_blocks): foreach ($content_blocks as $block):
 
 <section class="section text-dark section-about service-page section-grid <?php echo $bg_class; ?>">
     <div class="container single-product">
-        <?php
-        if (!empty($block['block_title'])): ?>
+        <?php if (!empty($block['block_title'])): ?>
             <div class="section-title text-center">
                 <h2 class="text-dark fw-semibold" style="font-size: 26px">
                     <?php echo $block['block_title']; ?>
@@ -266,15 +267,12 @@ if ($content_blocks): foreach ($content_blocks as $block):
 
         <div class="row justify-content-center">
             <?php if ($block['image_position'] == 'right'): ?>
-                <!-- Текст слева -->
                 <div class="col-12 col-md-5 text-dark order-2 order-md-1 text-left">
                     <?php echo wpautop($block['service_description']); ?>
                 </div>
                 <div class="d-none d-xl-block col-xl-1 order-md-2"></div>
-                <!-- Картинки справа -->
                 <div class="col-12 col-md-6 mb-4 mb-md-0 section-image order-1 order-md-3">
             <?php else: ?>
-                <!-- Картинки слева -->
                 <div class="col-12 col-md-6 mb-4 mb-md-0 section-image">
             <?php endif; ?>
 
@@ -285,12 +283,9 @@ if ($content_blocks): foreach ($content_blocks as $block):
                                     <div class="carousel-item gallery-2691-wrapper <?php echo $index === 0 ? 'active' : ''; ?> <?php echo count($gallery_images) === 1 ? 'carousel-item-one' : ''; ?>" >
                                         <button class="gallery-2691" onclick="galleryOn(<?php echo $block_counter; ?>, <?php echo $index; ?>);">
                                             <div class="single-product-img approximation img-wrapper position-relative">
-                                                <img src="<?php echo esc_url($image['url']); ?>"
-                                                    class="d-block w-100 single-product-img-img" loading="lazy"
-                                                    alt="<?php echo esc_attr($image['alt']); ?>" />
+                                                <img src="<?php echo esc_url($image['url']); ?>" class="d-block w-100 single-product-img-img" loading="lazy" alt="<?php echo esc_attr($image['alt']); ?>" />
                                                 <div class="overlay">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/zoom-icon.svg"
-                                                        alt="Zoom" class="zoom-icon" />
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/zoom-icon.svg" alt="Zoom" class="zoom-icon" />
                                                 </div>
                                             </div>
                                         </button>
@@ -299,15 +294,11 @@ if ($content_blocks): foreach ($content_blocks as $block):
                             </div>
 
                             <?php if (count($gallery_images) > 1): ?>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#<?php echo $carousel_id; ?>"
-                                    data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#<?php echo $carousel_id; ?>" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#<?php echo $carousel_id; ?>"
-                                    data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#<?php echo $carousel_id; ?>" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
                                 </button>
                             <?php endif; ?>
                         </div>
@@ -316,7 +307,6 @@ if ($content_blocks): foreach ($content_blocks as $block):
                             <?php the_post_thumbnail('large', array('class' => 'd-block w-100', 'loading' => 'lazy')); ?>
                         </div>
                     <?php endif; ?>
-
                 </div>
 
             <?php if ($block['image_position'] != 'right'): ?>
@@ -326,7 +316,15 @@ if ($content_blocks): foreach ($content_blocks as $block):
                 </div>
             <?php endif; ?>
         </div>
-    </div>
+
+        <?php if (!empty($full_text)): ?>
+            <div class="row mt-4">
+                <div class="col-12 text-dark wysiwyg-content">
+                    <?php echo $full_text; ?>
+                </div>
+            </div>
+        <?php endif; ?>
+        </div>
 </section>
 
 <?php if ($gallery_images && is_array($gallery_images) && count($gallery_images) > 0): ?>
