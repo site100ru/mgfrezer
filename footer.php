@@ -191,7 +191,7 @@
             <div class="row">
                 <div class="col text-start text-md-center">
                     <div id="im-in-footer">
-                        Создание и продвижение сайтов:<a href="https://site100.ru" class="text-light">site<span style="color: var(--color-accent)">100</span>.ru</a>
+                        Создание и продвижение сайтов: <a href="https://site100.ru" class="text-light">site<span style="color: var(--color-accent)">100</span>.ru</a>
                     </div>
                     <div class="policy-in-footer">
                         <a href="<?php echo get_template_directory_uri(); ?>/docs/Privacy-Policy.pdf"
