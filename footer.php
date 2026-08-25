@@ -25,11 +25,20 @@
                 </div>
             </div>
             <div class="col-xl-2 text-end">
-                <a href="tel:+74994082271" class="top-menu-tel nav-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg"
-                        class="me-2" style="position: relative; bottom: 1px" />+7 <span
-                        style="color: var(--color-accent)">499</span> 408 22 71
-                </a>
+                <div class="footer-phones d-flex flex-column align-items-end">
+                    <a href="tel:+74994082251" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">499</span> 408 22 51</span>
+                    </a>
+                    <a href="tel:+74994092271" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">499</span> 409 22 71</span>
+                    </a>
+                    <a href="tel:+79263175657" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">926</span> 317 56 57</span>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -128,11 +137,20 @@
                         </button>
                     </li>
                 </ul>
-                <a href="tel:+74994082271" class="top-menu-tel nav-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg"
-                        class="me-2" style="position: relative; bottom: 1px" />+7 <span
-                        style="color: var(--color-accent)">499</span> 408 22 71
-                </a>
+                <div class="footer-phones d-flex flex-column align-items-start">
+                    <a href="tel:+74994082251" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">499</span> 408 22 51</span>
+                    </a>
+                    <a href="tel:+74994092271" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">499</span> 409 22 71</span>
+                    </a>
+                    <a href="tel:+79263175657" class="top-menu-tel nav-link py-0 d-flex align-items-center gap-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />
+                        <span>+7 <span style="color: var(--color-accent)">926</span> 317 56 57</span>
+                    </a>
+                </div>
                 <ul class="nav pt-4 pb-3">
                     <li class="nav-item">
                         <a class="nav-link ico-button px-2" href="https://wa.me/79265930177?web=1&amp;app_absent=1">

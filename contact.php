@@ -64,11 +64,17 @@ get_header(); ?>
                                 </button>
                             </li>
                             <li class="nav-item me-3 me-md-1 me-xl-3">
-                                <a class="top-menu-tel nav-link" href="tel:+74994082271">
-                                    <img
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />
-                                    +7 499 408 22 71
-                                </a>
+                                <div class="header-phones d-flex align-items-center gap-2 gap-xl-3">
+                                    <a class="top-menu-tel nav-link p-0 d-flex align-items-center gap-2" href="tel:+74994082251">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 408 22 51
+                                    </a>
+                                    <a class="top-menu-tel nav-link p-0 d-flex align-items-center gap-2" href="tel:+74994092271">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 409 22 71
+                                    </a>
+                                    <a class="top-menu-tel nav-link p-0 d-none d-xl-flex align-items-center gap-2" href="tel:+79263175657">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />+7 926 317 56 57
+                                    </a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link ico-button" href="https://t.me/+79265930177">
@@ -97,8 +103,17 @@ get_header(); ?>
                     </a>
 
                     <div class="d-lg-none">
-                        <a class="top-menu-tel pt-1 pb-0" style="font-size: 14px" href="tel:+74994082271">
-                            +7 499 408 22 71</a>
+                        <div class="header-phones-compact d-flex flex-column">
+                            <a class="top-menu-tel pt-1 d-flex align-items-center gap-1" href="tel:+74994082251">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 408 22 51
+                            </a>
+                            <a class="top-menu-tel d-flex align-items-center gap-1" href="tel:+74994092271">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 409 22 71
+                            </a>
+                            <a class="top-menu-tel d-flex align-items-center gap-1" href="tel:+79263175657">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />+7 926 317 56 57
+                            </a>
+                        </div>
                         <div style="
                                     font-size: 10px;
                                     font-family: Gilroy;
@@ -137,7 +152,17 @@ get_header(); ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/location-ico.svg" style="width: 13px" class="me-1" />
                                 <span>гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А, стр. 1</span>
                             </div>
-                            <a class="nav-link top-menu-tel" href="tel:+74994082271">+7 499 408 22 71</a>
+                            <div class="header-phones-mobile d-flex flex-column">
+                                <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+74994082251">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 408 22 51
+                                </a>
+                                <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+74994092271">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 409 22 71
+                                </a>
+                                <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+79263175657">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />+7 926 317 56 57
+                                </a>
+                            </div>
                             <div class="mb-2 d-flex gap-1">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/clock-ico.svg" style="width: 10px; position: relative; top: 2px" class="me-1" />
                                 <div class="text"><span>Ежедневно с 9:00 до 21:00</span></div>
@@ -166,8 +191,17 @@ get_header(); ?>
                 </a>
 
                 <div class="d-lg-none">
-                    <a class="top-menu-tel pt-1 pb-0" style="font-size: 14px" href="tel:+74994082271">
-                        +7 499 408 22 71</a>
+                    <div class="header-phones-compact d-flex flex-column">
+                        <a class="top-menu-tel pt-1 d-flex align-items-center gap-1" href="tel:+74994082251">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 408 22 51
+                        </a>
+                        <a class="top-menu-tel d-flex align-items-center gap-1" href="tel:+74994092271">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 409 22 71
+                        </a>
+                        <a class="top-menu-tel d-flex align-items-center gap-1" href="tel:+79263175657">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />+7 926 317 56 57
+                        </a>
+                    </div>
                     <div style="
                                     font-size: 10px;
                                     font-family: Gilroy;
@@ -205,7 +239,17 @@ get_header(); ?>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/location-ico.svg" style="width: 13px" class="me-1" />
                             <span>гор. Химки, мкр-н Сходня, ул. Октябрьская, д. 29А, стр. 1</span>
                         </div>
-                        <a class="nav-link top-menu-tel" href="tel:+74994082271">+7 499 408 22 71</a>
+                        <div class="header-phones-mobile d-flex flex-column">
+                            <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+74994082251">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 408 22 51
+                            </a>
+                            <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+74994092271">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" />+7 499 409 22 71
+                            </a>
+                            <a class="nav-link top-menu-tel fw-bold py-0 d-flex align-items-center gap-2" href="tel:+79263175657">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg" />+7 926 317 56 57
+                            </a>
+                        </div>
                         <div class="mb-2 d-flex gap-1">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/clock-ico.svg" style="width: 10px; position: relative; top: 2px" class="me-1" />
                             <div class="text"><span>Ежедневно с 9:00 до 21:00</span></div>
@@ -276,16 +320,22 @@ get_header(); ?>
 
             <!-- Второй блок -->
             <div class="col-12 col-md-6 col-xl-2 mb-0 mb-md-4">
-                <div class="d-flex align-items-center mb-4 pb-md-3 flex-wrap">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" alt="Адрес"
+                <div class="d-flex align-items-center mb-3 flex-wrap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" alt="Телефон"
                         class="me-3 img-fluid" />
-                    <a href="tel:+74994082271" class="text-decoration-none">+7 499 408 22 71</a>
+                    <a href="tel:+74994082251" class="text-decoration-none">+7 499 408 22 51</a>
+                </div>
+
+                <div class="d-flex align-items-center mb-3 flex-wrap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telephone-1.svg" alt="Телефон"
+                        class="me-3 img-fluid" />
+                    <a href="tel:+74994092271" class="text-decoration-none">+7 499 409 22 71</a>
                 </div>
 
                 <div class="d-flex align-items-center mb-4 flex-wrap">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/mobile-phone-ico.svg"
-                        alt="Адрес" class="me-3 img-fluid" />
-                    <a href="tel:+79265930177" class="text-decoration-none">+7 926 593 01 77</a>
+                        alt="Мобильный телефон" class="me-3 img-fluid" />
+                    <a href="tel:+79263175657" class="text-decoration-none">+7 926 317 56 57</a>
                 </div>
             </div>
 

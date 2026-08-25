@@ -164,6 +164,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
 	.section-title h1,
 	.section-title h2,
 	.section-title h3,
@@ -279,6 +280,7 @@ td {
 td span {
 	font-family: var(--font3);
 }
+
 /* END TABLE */
 
 /*** BUTTONS ***/
@@ -349,6 +351,7 @@ td span {
 	--bs-dropdown-link-active-bg: rgba(228, 151, 38, 0.3);
 	--bs-dropdown-link-active-color: #323232;
 }
+
 /*** END BUTTONS ***/
 
 /*** HEADER ***/
@@ -481,6 +484,7 @@ td span {
 }
 
 @media (min-width: 992px) {
+
 	.header-top .nav-link,
 	.header-top .top-menu-tel {
 		display: flex;
@@ -499,6 +503,92 @@ td span {
 .header-top .top-menu-tel:hover {
 	opacity: 0.85;
 }
+
+/* Телефоны в шапке */
+.header-phones {
+	flex-wrap: nowrap;
+}
+
+.header-phones .top-menu-tel {
+	white-space: nowrap;
+}
+
+.header-phones .top-menu-tel img {
+	width: 16px;
+	height: 16px;
+	flex: 0 0 auto;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.header-phones {
+		gap: 0.5rem !important;
+	}
+
+	.header-phones .top-menu-tel img {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+.header-phones-compact .top-menu-tel {
+	font-size: 13px;
+	line-height: 1.45;
+	white-space: nowrap;
+}
+
+.header-phones-compact .top-menu-tel img {
+	width: 12px;
+	height: 12px;
+	flex: 0 0 auto;
+}
+
+@media (max-width: 400px) {
+	.header-phones-compact .top-menu-tel {
+		font-size: 12px;
+	}
+}
+
+.header-phones-mobile .top-menu-tel {
+	line-height: 1.6;
+	white-space: nowrap;
+}
+
+.header-phones-mobile .top-menu-tel img {
+	width: 14px;
+	height: 14px;
+	flex: 0 0 auto;
+}
+
+/* Телефоны в подвале — иконка + номер, списком друг под другом */
+.footer .footer-phones .top-menu-tel {
+	white-space: nowrap;
+	line-height: 1.6;
+	font-size: 17px;
+}
+
+.footer .footer-phones .top-menu-tel img {
+	width: 18px;
+	height: 18px;
+	flex: 0 0 auto;
+}
+
+@media (min-width: 1400px) {
+	.footer .footer-phones .top-menu-tel {
+		font-size: 20px;
+	}
+
+	.footer .footer-phones .top-menu-tel img {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.footer .footer-phones .top-menu-tel {
+		font-size: 17px;
+	}
+}
+
 /*** END HEADER ***/
 
 /*** HOME CAROUSEL ***/
@@ -629,6 +719,7 @@ td span {
 		--header-height: 161px;
 	}
 }
+
 /* Медиа-запрос для мобильных устройств */
 @media (max-width: 992px) {
 	:root {
@@ -693,7 +784,12 @@ td span {
 
 @media (max-width: 578px) {
 	.header-nav-bottom .navbar-brand img {
-		height: 40px;
+		height: 36px;
+	}
+
+	#sliding-header .d-lg-none .top-menu-tel,
+	.header-nav-bottom .d-lg-none .nav-link.top-menu-tel {
+		font-size: 16px;
 	}
 }
 
@@ -844,6 +940,7 @@ td span {
 .footer .dropdown-toggle::after {
 	margin-left: 1rem;
 }
+
 .footer .navbar-nav {
 	color: var(--white-color);
 	font-family: var(--font3);
@@ -1083,7 +1180,7 @@ a.nav-link.ico-button:hover {
 	height: 650px;
 }
 
-#map2 > ymaps {
+#map2>ymaps {
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -1166,6 +1263,7 @@ a.nav-link.ico-button:hover {
 }
 
 @media (max-width: 768px) {
+
 	#certCarousel .carousel-control-next,
 	#certCarousel .carousel-control-prev {
 		height: max-content;
@@ -1306,7 +1404,9 @@ end section-advantages
 /** Main home section **/
 .main-home-section {
 	min-height: 580px;
-} /** End main home section **/
+}
+
+/** End main home section **/
 
 .home-subtitle {
 	font-family: Gilroy-Light;
@@ -1351,6 +1451,7 @@ end section-advantages
 		padding-bottom: 60px;
 	}
 }
+
 /** End main home section **/
 
 /* Parallax home section */
@@ -1440,7 +1541,7 @@ end section-advantages
 	opacity: 0;
 }
 
-.checkbox:checked ~ .option_inner .shadow-wrapper {
+.checkbox:checked~.option_inner .shadow-wrapper {
 	opacity: 50;
 }
 
@@ -1464,7 +1565,7 @@ end section-advantages
 	opacity: 0;
 }
 
-.checkbox:checked ~ .option_inner .shadow-wrapper-box {
+.checkbox:checked~.option_inner .shadow-wrapper-box {
 	opacity: 1;
 }
 
@@ -1492,13 +1593,13 @@ end section-advantages
 	border: none;
 }
 
-.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+.input-group:not(.has-validation)> :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	border: none;
 }
 
-.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+.input-group> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
 	margin-left: 0;
 	padding-top: 10px;
 }
@@ -1521,6 +1622,7 @@ end section-advantages
 	font-size: 16px;
 	transition: 0.2s;
 }
+
 /* End input file */
 
 .modal-body p {
@@ -1685,11 +1787,11 @@ body.modal-open {
 
 @media (min-width: 768px) {
 	.section.service-page .text-left p {
-        text-align: end;
+		text-align: end;
 	}
 }
 
 
-.section  .carousel-item-one .img-wrapper:hover img {
-    transform: scale(1);
+.section .carousel-item-one .img-wrapper:hover img {
+	transform: scale(1);
 }
