@@ -342,3 +342,4 @@ add_filter('block_categories_all', function ($categories) {
 
     return $categories;
 }, 10, 1);
+

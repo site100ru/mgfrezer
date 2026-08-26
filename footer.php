@@ -85,13 +85,8 @@
             <div class="col">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link ico-button px-2" href="https://wa.me/79265930177?web=1&amp;app_absent=1">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/whatsapp-ico.svg" />
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ico-button px-2" href="https://t.me/+79265930177">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telegram-ico.svg" />
+                        <a class="nav-link ico-button px-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/max.png" alt="MAX" />
                         </a>
                     </li>
                 </ul>
@@ -153,13 +148,8 @@
                 </div>
                 <ul class="nav pt-4 pb-3">
                     <li class="nav-item">
-                        <a class="nav-link ico-button px-2" href="https://wa.me/79265930177?web=1&amp;app_absent=1">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/whatsapp-ico.svg" />
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ico-button px-2" href="https://t.me/+79265930177">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/telegram-ico.svg" />
+                        <a class="nav-link ico-button px-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/max.png" alt="MAX" />
                         </a>
                     </li>
                 </ul>
