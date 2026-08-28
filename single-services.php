@@ -72,7 +72,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ico-button" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as">
+                                <a class="nav-link ico-button" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as" target="_blank" rel="noopener noreferrer">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/max.png" alt="MAX" />
                                 </a>
                             </li>
@@ -156,7 +156,7 @@
                                 <div class="text"><span>Ежедневно с 9:00 до 21:00</span></div>
                             </div>
                             <div class="pb-4">
-                                <a class="ico-button pe-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as">
+                                <a class="ico-button pe-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as" target="_blank" rel="noopener noreferrer">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/max.png" alt="MAX" />
                                 </a>
                             </div>
@@ -240,7 +240,7 @@
                             <div class="text"><span>Ежедневно с 9:00 до 21:00</span></div>
                         </div>
                         <div class="pb-4">
-                            <a class="ico-button pe-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as">
+                            <a class="ico-button pe-2" href="https://max.ru/u/f9LHodD0cOJL5X5xM5NVWAEyQ5mac6fmcYpNE0j8y9nZbS70Jzb7A1UD3as" target="_blank" rel="noopener noreferrer">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ico/max.png" alt="MAX" />
                             </a>
                         </div>
